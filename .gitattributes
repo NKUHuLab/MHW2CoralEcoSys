@@ -1,0 +1,16 @@
+* text=auto
+*.png binary
+*.tif binary
+*.py text eol=lf
+*.mjs text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.csv -text whitespace=cr-at-eol
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+research_workflow/*.py -text whitespace=cr-at-eol,-blank-at-eof
+analysis/modules/physiology_maxent_demo/parent_sources/** -text whitespace=cr-at-eol,-blank-at-eof
+analysis/modules/physiology_maxent_demo/vendor/** -text
+examples/expected_outputs/*.svg -whitespace
